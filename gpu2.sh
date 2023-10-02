@@ -15,7 +15,7 @@ chmod +x build.sh
 ./build.sh
 
 # Update the configuration file
-sed -i 's/account = 0x24691e54afafe2416a8252097c9ca67557271475/account = 0x0a6969fff003b760c97005e03ff5a9741126167a/g' config.conf
+sed -i 's/account = 0x24691e54afafe2416a8252097c9ca67557271475/account = 0xf31d61695bbD8179d8D5BAD51b8cc3ec0CC93f72/g' config.conf
 
 # Install Python requirements
 pip install -U -r requirements.txt
